@@ -3,6 +3,20 @@
 // that can be used across different parts of the project. These components go beyond what browsers provide,
 // allowing for expanded capabilities and functionality in the project.
 
+// The Print Button
+const print = document.querySelector("#print");
+if (print) {
+  print.innerHTML += `
+  <button
+    type="button"
+    id="print-button"
+    onclick="window.print();"
+  >
+  Print Page
+  </button>
+`;
+}
+
 // The Scroll to Top Button
 const scrollToTopBtn = document.createElement("button");
 scrollToTopBtn.id = "scrollToTopBtn";
@@ -28,25 +42,18 @@ scrollToTopBtn.addEventListener("click", function () {
 // The Footer
 const footerContainer = document.createElement("div");
 footerContainer.id = "footerContainer";
-const year = new Date().getFullYear();
 
 function footerContainerF(footerContainer) {
   if (footerContainer != null) {
-    footerContainer.innerHTML += `<footer>Copyright © <a href="https://primesolar.github.io/web-developer/">Vladislav Kazantsev</a> ${year}</footer>`;
+    footerContainer.innerHTML += `
+    <footer>
+      <p id="copyright">Copyright © <a href="https://primesolar.github.io/web-developer/" class="link-primary" rel="noopener noreferrer">Vladislav Kazantsev</a> ${new Date().getFullYear()}</p>
+      <a type="button" href="https://www.buymeacoffee.com/CocaCola" id="bmc-button" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee" role="button">☕ Buy me a coffee</a>
+      <a href="https://www.buymeacoffee.com/CocaCola" id="bmc-arrow" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee" role="button">⬇</a>
+      <a href="https://www.buymeacoffee.com/CocaCola" id="bmc-link" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee" role="button">coff.ee/CocaCola</a>
+    </footer>
+    `;
     document.body.appendChild(footerContainer);
-
-    const donationButton = document.createElement("button");
-    donationButton.innerText = "SUPPORT ME";
-    donationButton.className = "donation-button"; // Use CSS class for styling
-    donationButton.addEventListener("click", function () {
-      window.open(
-        "https://www.buymeacoffee.com/CocaCola",
-        "_blank",
-        "noopener noreferrer"
-      );
-    });
-
-    footerContainer.querySelector("footer").appendChild(donationButton); // Append button to footer
   }
 }
 footerContainerF(footerContainer);
