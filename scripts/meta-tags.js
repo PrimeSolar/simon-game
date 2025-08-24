@@ -45,20 +45,20 @@ const jQuery = document.createElement("script");
 jQuery.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js";
 document.querySelector("body").appendChild(jQuery);
 
-// Insert <script src="scripts/game-min.js"></script> and <script src="scripts/elements-min.js"></script>
+// Insert <script src="scripts/game-min.js"></script> and <script src="scripts/components-min.js"></script>
 jQuery.onload = function () {
   const gameScript = document.createElement("script");
   gameScript.src = "scripts/game-min.js";
   document.querySelector("body").appendChild(gameScript);
   const script = document.createElement("script");
-  script.src = "scripts/elements-min.js";
+  script.src = "scripts/components-min.js";
   document.querySelector("body").appendChild(script);
 };
 
-// Insert <link rel="icon" href="pics/logos/favicon.jpg">
+// Insert <link rel="icon" href="pics/logos/logo.jpg">
 const linkImage = document.createElement("link");
 linkImage.rel = "icon";
-linkImage.href = "assets/images/favicon.jpg";
+linkImage.href = "assets/images/logo.jpg";
 document.querySelector("head").appendChild(linkImage);
 
 // Set `type="text/javascript"` for all <script> elements for better compatibility
