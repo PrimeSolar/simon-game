@@ -1,6 +1,6 @@
 # Simon Game 🎮
 
-Welcome to the **Simon Game**! This interactive web application challenges players to press the correct colored buttons. It's a fun way to spend your time!
+&nbsp;&nbsp;Welcome to the **Simon Game**! This interactive web application challenges players to press the correct colored buttons. It's a fun way to spend your time!
 
 - [Simon Game 🎮](#simon-game-)
   - [Features](#features)
@@ -19,16 +19,22 @@ Welcome to the **Simon Game**! This interactive web application challenges playe
 
 ## Technologies Used
 
-JavaScript, HTML, CSS, jQuery (a fast, small, and feature-rich JavaScript library), Google Fonts (a stylish font used for the game's text).
+- JavaScript.
+- HTML.
+- CSS.
+- jQuery: a fast, small, and feature-rich JavaScript library.
+- Google Fonts: a stylish font used for the game's text.
 
 ## Interface
 
-![Simon Game](assets/images/interface.jpg)  
+&nbsp;&nbsp;The interface is designed to be user-friendly and visually appealing.
+
+![Simon Game](assets/images/interface.jpg)
 _The Simon Game Interface_
 
 ## Installation
 
-To get started with the Simon Game, follow these steps:
+&nbsp;&nbsp;To get started with the Simon Game, follow these steps:
 
 **For Windows**
 
@@ -43,7 +49,7 @@ git clone https://github.com/PrimeSolar/simon-game.git
 3. Navigate to your project directory where the index.html file is located:
 
 **Note**
-Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
+&nbsp;&nbsp;Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
 
 ```bash
 cd path\to\the\simon-game
@@ -68,7 +74,7 @@ git clone https://github.com/PrimeSolar/simon-game.git
 3. Navigate to your project directory where the index.html file is located:
 
 **Note**
-Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
+&nbsp;&nbsp;Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
 
 ```bash
 cd path/to/the/simon-game
@@ -93,7 +99,7 @@ git clone https://github.com/PrimeSolar/simon-game.git
 3. Navigate to your project directory where the index.html file is located:
 
 **Note**
-Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
+&nbsp;&nbsp;Make sure to replace path/to/the/shopping-app with the actual path to your project directory.
 
 ```bash
 cd path/to/the/simon-game
@@ -105,7 +111,7 @@ cd path/to/the/simon-game
 xdg-open index.html
 ```
 
-After completing these steps, your default web browser should open and display the index.html webpage.
+&nbsp;&nbsp;After completing these steps, your default web browser should open and display the index.html webpage.
 
 ## Usage
 
@@ -116,9 +122,9 @@ After completing these steps, your default web browser should open and display t
 
 ## Support My Work ☕
 
-If you enjoy my project and would like to support my work, consider buying me a coffee! Your contributions help me stay energized and motivated to create even more amazing content.
+&nbsp;&nbsp;If you enjoy my project and would like to support my work, consider buying me a coffee! Your contributions help me stay energized and motivated to create even more amazing content.
 
-Every cup of coffee you buy not only fuels my passion but also allows me to dedicate more time to developing innovative projects and sharing knowledge. Whether it's a small gesture or a generous contribution, every bit is greatly appreciated!
+&nbsp;&nbsp;Every cup of coffee you buy not only fuels my passion but also allows me to dedicate more time to developing innovative projects and sharing knowledge. Whether it's a small gesture or a generous contribution, every bit is greatly appreciated!
 
 **Click the image to support my work:**
 
@@ -126,7 +132,7 @@ Every cup of coffee you buy not only fuels my passion but also allows me to dedi
   <img src="assets/images/coffee.jpg" width="370" height="auto" alt="Buy Me a Coffee"/>
 </a>
 
-Thank you for your support! Together, we can create something wonderful! 💖
+&nbsp;&nbsp;Thank you for your support! Together, we can create something wonderful! 💖
 
 <a name="contact-me"></a>
 
