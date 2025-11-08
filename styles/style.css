@@ -33,7 +33,7 @@ body {
   width: 50vw;
   --glow-accent-1: #8964e8;
   --glow-accent-2: #25a6e9;
-  -webkit-box-shadow: none; /* For older versions of Chrome and Safari */
+  -webkit-box-shadow: none; /* For older versions of Chrome and Safari. */
   box-shadow: none;
   transition: box-shadow 0.7s ease box-shadow 0.7s;
   -moz-animation: modal-glow 0.7s ease 0.7s;
@@ -558,37 +558,37 @@ footer * {
 }
 
 #bmc-button {
-  display: block; /* Specify the display behavior of the element */
-  width: fit-content; /* Set the width of the element */
-  height: 1rem; /* Set the height of the element */
-  margin: 0.75rem auto 0; /* Set the size for the margin of the element */
-  background-color: #ff843f !important; /* Set the color for the background of the element */
-  color: #ffffff; /* Set the color for the text of the element */
-  font-family: "Cookie", cursive; /* Set the font family for the text of the element */
-  font-weight: bold; /* Set the font weight for the text of the element */
-  text-decoration: none; /* Set the decoration for the text of the element */
-  text-shadow: 1px 1px 2px #00000080; /* Set the shadow for the text of the element */
+  display: block; /* Specify the display behavior of the element. */
+  width: fit-content; /* Set the width of the element. */
+  height: 1rem; /* Set the height of the element. */
+  margin: 0.75rem auto 0; /* Set the size for the margin of the element. */
+  background-color: #ff843f !important; /* Set the color for the background of the element. */
+  color: #ffffff; /* Set the color for the text of the element. */
+  font-family: "Cookie", cursive; /* Set the font family for the text of the element. */
+  font-weight: bold; /* Set the font weight for the text of the element. */
+  text-decoration: none; /* Set the decoration for the text of the element. */
+  text-shadow: 1px 1px 2px #00000080; /* Set the shadow for the text of the element. */
   border: none;
-  padding: 0 20px 10px; /* Set the padding of the element */
-  cursor: pointer; /* Specify the type of cursor to be displayed when hovering over the element */
+  padding: 0 20px 10px; /* Set the padding of the element. */
+  cursor: pointer; /* Specify the type of cursor to be displayed when hovering over the element. */
   outline: none;
-  -webkit-box-shadow: 0 4px 8px #00000037; /* For older versions of Chrome and Safari */
-  box-shadow: 0 4px 8px #00000037; /* Set the shadow of the element */
-  /* Set the border radius for the corners of the element */
-  -webkit-border-radius: 5px; /* For older versions of Chrome and Safari */
-  -moz-border-radius: 5px; /* For older versions of Firefox */
-  -o-border-radius: 5px; /* For older versions of Opera */
-  border-radius: 5px; /* Standard property for border radius */
-  /* Add a transition effect for changes in properties */
-  -webkit-transition: 0.5s; /* For older versions of Chrome and Safari */
-  -o-transition: 0.5s; /* For older versions of Opera */
-  transition: 0.5s; /* Standard syntax for modern browsers (widely supported) */
+  -webkit-box-shadow: 0 4px 8px #00000037; /* For older versions of Chrome and Safari. */
+  box-shadow: 0 4px 8px #00000037; /* Set the shadow of the element. */
+  /* Set the border radius for the corners of the element. */
+  -webkit-border-radius: 5px; /* For older versions of Chrome and Safari. */
+  -moz-border-radius: 5px; /* For older versions of Firefox. */
+  -o-border-radius: 5px; /* For older versions of Opera. */
+  border-radius: 5px; /* Standard property for border radius. */
+  /* Add a transition effect for changes in properties. */
+  -webkit-transition: 0.5s; /* For older versions of Chrome and Safari. */
+  -o-transition: 0.5s; /* For older versions of Opera. */
+  transition: 0.5s; /* Standard syntax for modern browsers (widely supported). */
 }
 
 #bmc-button:active {
   transform: scale(0.95);
-  -webkit-box-shadow: 0 4px 8px #0000004d; /* For older versions of Chrome and Safari */
-  box-shadow: 0 4px 8px #0000004d; /* Set the shadow of the element */
+  -webkit-box-shadow: 0 4px 8px #0000004d; /* For older versions of Chrome and Safari. */
+  box-shadow: 0 4px 8px #0000004d; /* Set the shadow of the element. */
 }
 
 @media (max-width: 640px) and (max-height: 900px) {
