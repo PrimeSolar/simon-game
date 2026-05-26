@@ -16,8 +16,12 @@
  * For inquiries about collaboration, usage outside exploratory purposes, or permissions, please contact: hypervisor7@pm.me
  */
 
-// The Print Button
+/** The print button. */
 const print = document.querySelector("#print");
+/**
+ * The script includes detailed comments
+ * to support stakeholders with varying JS knowledge.
+ */
 if (print) {
   print.innerHTML += `
   <button
@@ -30,11 +34,11 @@ if (print) {
 `;
 }
 
-// The Scroll to Top Button
+/** The scroll to top button. */
 const scrollToTopBtn = document.createElement("button");
 scrollToTopBtn.id = "scrollToTopBtn";
 scrollToTopBtn.innerText = "Back to Top";
-scrollToTopBtn.className = "scroll-to-top"; // Use CSS class for styling
+scrollToTopBtn.className = "scroll-to-top";
 document.body.appendChild(scrollToTopBtn);
 
 window.addEventListener("scroll", function () {
@@ -48,17 +52,17 @@ window.addEventListener("scroll", function () {
 });
 
 scrollToTopBtn.addEventListener("click", function () {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  document.body.scrollTop = 0; /** For Safari. */
+  document.documentElement.scrollTop = 0; /** For Chrome, Firefox, IE, and Opera. */
 });
 
-// The Footer
-const footerContainer = document.createElement("div");
-footerContainer.id = "footerContainer";
+/** The footer. */
+const FooterContainer = document.createElement("div");
+FooterContainer.id = "FooterContainer";
 
-function footerContainerF(footerContainer) {
-  if (footerContainer != null) {
-    footerContainer.innerHTML += `
+function footerContainerF(FooterContainer) {
+  if (FooterContainer !== null) {
+    FooterContainer.innerHTML += `
     <footer>
       <p id="copyright">Copyright © <a href="https://primesolar.github.io/web-developer/" class="link-primary" rel="noopener noreferrer">Vladislav Kazantsev</a> ${new Date().getFullYear()}</p>
       <a type="button" href="https://www.buymeacoffee.com/CocaCola" id="bmc-button" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee" role="button">☕ Buy me a coffee</a>
@@ -66,9 +70,9 @@ function footerContainerF(footerContainer) {
       <a href="https://www.buymeacoffee.com/CocaCola" id="bmc-link" target="_blank" rel="noopener noreferrer" aria-label="Buy me a coffee" role="button">coff.ee/CocaCola</a>
     </footer>
     `;
-    document.body.appendChild(footerContainer);
+    document.body.appendChild(FooterContainer);
   }
 }
-footerContainerF(footerContainer);
+footerContainerF(FooterContainer);
 
 console.log("components.js is completed");
