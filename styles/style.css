@@ -28,6 +28,8 @@ body {
   overflow: hidden;
 }
 
+/* The style sheet includes detailed property comments
+to support stakeholders with varying CSS knowledge. */
 #modal {
   position: relative;
   width: 50vw;
@@ -463,7 +465,7 @@ body {
   color: #ffffff;
 }
 
-#footerContainer {
+#FooterContainer {
   width: 100vw;
   -moz-animation: slideIn 0.5s ease 1.7s backwards;
   -o-animation: slideIn 0.5s ease 1.7s backwards;
