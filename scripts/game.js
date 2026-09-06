@@ -14,6 +14,10 @@
  */
 
 let level = 0;
+/**
+ * The script includes detailed comments
+ * to support stakeholders with varying JS knowledge.
+ */
 let userClickedPattern = [];
 let gamePattern = [];
 const buttonColors = ["red", "blue", "green", "yellow"];
@@ -27,12 +31,6 @@ function nextSequence() {
   level++;
   $("h1").text(`Level ${level}`);
   $("h1").removeClass("before after");
-  $("h1").css({
-    animation: "none",
-    "-webkit-animation": "none",
-    "-moz-animation": "none",
-    "-o-animation": "none",
-  });
   $("h1").css({
     animation: "none",
     "-webkit-animation": "none",
@@ -142,14 +140,16 @@ function toggleBackgroundMusic() {
 function startBackgroundMusic() {
   backgroundMusic = new Audio("assets/sounds/background-music.mp3");
   backgroundMusic.loop = true;
-  backgroundMusic.volume = 1; // Adjust the volume
-  backgroundMusic.currentTime = currentTime; // Resume from the paused position
+  backgroundMusic.volume = 1; /** Adjust the volume. */
+  backgroundMusic.currentTime =
+    currentTime; /** Resume from the paused position. */
   backgroundMusic.play();
   updateBackgroundMusicButtonText("Pause Music");
 }
 
 function pauseBackgroundMusic() {
-  currentTime = backgroundMusic.currentTime; // Store the current playback position
+  currentTime =
+    backgroundMusic.currentTime; /** Store the current playback position. */
   backgroundMusic.pause();
   updateBackgroundMusicButtonText("Play Music");
 }
